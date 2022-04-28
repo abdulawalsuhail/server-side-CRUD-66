@@ -120,6 +120,9 @@ run().catch(console.dir)
 app.get('/', (req, res) => {
     res.send('hello world my world is beauty')
 })
+app.post('/', (req, res) => {
+    res.send('hello world my world is beauty')
+})
 
 
 app.listen(port, () => {
